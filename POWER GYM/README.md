@@ -1,4 +1,4 @@
-
+                                                                     POWER GYM
 Overview
 This project is a website for "Power Gym," a fitness center that focuses on providing a supportive community for individuals seeking physical fitness and empowerment. The site is designed with a user-friendly interface, utilizing HTML, Bootstrap, JavaScript and custom CSS for styling.
 
