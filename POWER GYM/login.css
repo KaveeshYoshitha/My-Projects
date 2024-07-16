@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #f36100;
+  --secondary-color: #fb8122;
+
+  --primary-text-color: WHite;
+  --secondary-text-color: #e1e2e2;
+
+  --bgcolor: #1d2228;
+  --bgcolor2: #051622;
+}
+
+#login {
+  background-image: url(Assests/Yoga/pexels-jonathan-borba-3076509.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.text {
+  color: black;
+}
+
+#signupText {
+  color: black;
+  transition: 0.5s all;
+}
+
+#signupText:hover {
+  color: var(--primary-color);
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.5) !important;
+}
