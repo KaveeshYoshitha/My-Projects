@@ -1,2 +1,0 @@
-Hosting ----> Digitalocean
-Domain Name ----> Name.com (.LIVE)
