@@ -1,0 +1,21 @@
+Hosting SQL Server on Azure:
+Create an Azure Account:
+
+Sign up for an account on the Azure portal.
+Create an Azure SQL Database:
+
+In the Azure portal, navigate to "Create a resource" > "Databases" > "SQL Database."
+Follow the steps to configure your SQL Database, specifying the necessary settings such as server name, resource group, and pricing tier.
+Set Up Server and Firewall Rules:
+
+Configure the server settings and firewall rules to allow connections from your development machine or web server.
+Connect using SSMS:
+
+Open SQL Server Management Studio (SSMS) on your local machine.
+Connect to the Azure SQL Database using the server name and credentials you configured during the setup.
+Deploy Your Database:
+
+You may need to deploy your database schema and data to the Azure SQL Database. This can be done using SSMS or through other deployment methods.
+Update Connection String:
+
+Update the connection string in your web application to point to the Azure SQL Database.

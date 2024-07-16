@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plans</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="plans.css" />
+  </head>
+  <body>
+    <section id="plans">
+      <div class="container container-fluid">
+        <div class="col-md-12 row">
+          <h1 class="text-center mt-3 mb-5">MEMBERSHIP PLANS</h1>
+
+          <div class="col col-md-4">
+            <div class="card text-center">
+              <div class="card-header fs-2 fw-bold">Basic Fitness Plan</div>
+              <div class="card-body">
+                <h5 class="card-title">Price: <span>$29.99</span>/month</h5>
+                <p class="card-text text-start my-3">
+                  01. Full access to the gym during regular hours. <br />
+                  02. Access to basic workout equipment and cardio machines.
+                  <br />
+                  03. Locker room facilities. <br />
+                  04. Monthly fitness assessment with a trainer (optional).
+                  <br />
+                  05. Group fitness classes (limited schedule).
+                </p>
+                <br /><br /><br /><br />
+                <a
+                  href="#"
+                  onclick="package1()"
+                  id="basic"
+                  class="btn btn-primary buy"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-md-4">
+            <div class="card text-center">
+              <div class="card-header fs-2 fw-bold">Premium Fitness Plan</div>
+              <div class="card-body">
+                <h5 class="card-title">Price: <span>$49.99</span>/month</h5>
+                <p class="card-text text-start my-3">
+                  01. 24/7 access to the gym. <br />
+                  02. Full access to all gym facilities,including advanced
+                  workout 03. equipment and specialized areas. <br />
+                  04. Locker room facilities with towel service. <br />
+                  05. Monthly personalized training session with a dedicated
+                  fitness trainer. <br />
+                  06. Unlimited access to all group fitness classes. <br />
+                  07. Discounted rates on personal training packages.
+                </p>
+                <br /><br />
+                <a
+                  href="#"
+                  onclick="package2()"
+                  id="premium"
+                  class="btn btn-primary buy"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-md-4">
+            <div class="card text-center">
+              <div class="card-header fs-2 fw-bold">Family Fitness Plan</div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Price: <span>$89.99</span>/month (for a family)
+                </h5>
+                <p class="card-text text-start my-3">
+                  01. Full access to the gym during regular hours for all family
+                  members. <br />
+                  02. Family-friendly facilities, including a kids' play area.
+                  <br />
+                  03. Locker room facilities with family-sized changing rooms.
+                  <br />
+                  04. Monthly fitness assessment for each family member. <br />
+                  05. Access to family-oriented group fitness classes. <br />
+                  06. Discounted rates on additional family members or personal
+                  training sessions.
+                </p>
+                <a
+                  href="#"
+                  onclick="package3()"
+                  id="family"
+                  class="btn btn-primary buy"
+                  >Buy</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-8 offset-md-2 my-5 trial">
+            <h2 class="text-center mt-5 mb-3">Apply For Free 7 Day Trial</h2>
+
+            <div class="row">
+              <div class="input-group mb-4 mt-5 col">
+                <span class="input-group-text" id="inputGroup-sizing-default"
+                  >First Name</span
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  aria-label="Sizing example input"
+                  aria-describedby="inputGroup-sizing-default"
+                />
+              </div>
+
+              <div class="input-group mb-4 mt-5 col">
+                <span class="input-group-text" id="inputGroup-sizing-default"
+                  >Last Name</span
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  aria-label="Sizing example input"
+                  aria-describedby="inputGroup-sizing-default"
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-group mb-4 col">
+                <span class="input-group-text" id="inputGroup-sizing-default"
+                  >Email</span
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  aria-label="Sizing example input"
+                  aria-describedby="inputGroup-sizing-default"
+                />
+              </div>
+
+              <div class="input-group mb-4 col">
+                <span class="input-group-text" id="inputGroup-sizing-default"
+                  >Mobile No*</span
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  aria-label="Sizing example input"
+                  aria-describedby="inputGroup-sizing-default"
+                />
+              </div>
+            </div>
+
+            <div class="col col-md-8 offset-md-5 my-5">
+              <a
+                class="btn btn-primary btn-lg px-4 me-md-2 buy"
+                href="#"
+                role="button"
+                >Get Membership</a
+              >
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <script src="join.js"></script>
+  </body>
+</html>

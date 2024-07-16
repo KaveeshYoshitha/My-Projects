@@ -1,0 +1,8 @@
+Primary color --> #f36100
+Secondary Color --> #FB8122
+
+primary text color --> WHite
+Secondary text color --> #E1E2E2
+
+bgColor --> #1D2228
+bgColor2 --> #051622
